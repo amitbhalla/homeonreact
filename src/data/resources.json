@@ -10,7 +10,36 @@
       "ROI measurement templates"
     ],
     "buttonText": "Download Free Guide",
-    "buttonLink": "/downloads/kb1.html"
+    "buttonLink": "/freebies/growth-marketing-playbook",
+    "slug": "growth-marketing-playbook",
+    "fullDescription": "The Growth Marketing Playbook is your definitive guide to building and executing a data-driven marketing strategy that delivers consistent, measurable results. Whether you're a startup looking to accelerate growth or an established company seeking to optimize your marketing ROI, this comprehensive resource provides actionable frameworks, proven tactics, and real-world examples to help you succeed.",
+    "valueProps": [
+      {
+        "title": "Acquisition Strategy Framework",
+        "description": "Learn how to build a multi-channel acquisition strategy that targets the right customers at each stage of the funnel, optimizing your CAC and driving qualified leads."
+      },
+      {
+        "title": "Channel Selection Matrix",
+        "description": "Use the proprietary channel evaluation framework to identify which marketing channels will deliver the best results for your specific business and customer profile."
+      },
+      {
+        "title": "Performance Measurement Templates",
+        "description": "Implement robust attribution and analytics practices with ready-to-use templates for tracking, reporting, and optimizing your marketing performance."
+      },
+      {
+        "title": "Conversion Rate Optimization",
+        "description": "Apply proven CRO techniques to improve landing page performance, email sequences, and overall funnel effectiveness to maximize your marketing spend."
+      }
+    ],
+    "includedFeatures": [
+      "35-page comprehensive PDF guide",
+      "Editable channel planning worksheet",
+      "Marketing budget allocation calculator",
+      "Customer journey mapping template",
+      "Performance dashboard template",
+      "KPI setting framework",
+      "Competitor analysis matrix"
+    ]
   },
   {
     "id": 2,
@@ -23,7 +52,36 @@
       "Content performance metrics"
     ],
     "buttonText": "Download Free Template",
-    "buttonLink": "/downloads/kb2.html"
+    "buttonLink": "/freebies/b2b-content-strategy-template",
+    "slug": "b2b-content-strategy-template",
+    "fullDescription": "This B2B Content Strategy Template is the exact framework I've used with clients ranging from SaaS startups to enterprise companies to develop content that consistently generates leads and supports sales conversion. Stop creating content that doesn't perform and start building a strategic content operation that drives business results.",
+    "valueProps": [
+      {
+        "title": "Buyer Journey Content Mapping",
+        "description": "Plan content that addresses specific customer needs at each stage of the buying process, from awareness to decision, ensuring you're supporting the entire sales funnel."
+      },
+      {
+        "title": "Topic Research Framework",
+        "description": "Identify high-value content topics that resonate with your target audience using my proprietary research methodology that combines SEO insights with sales intelligence."
+      },
+      {
+        "title": "Content Performance Measurement",
+        "description": "Implement the right metrics to track content effectiveness beyond just traffic and engagement, focusing on lead generation and revenue contribution."
+      },
+      {
+        "title": "Content Production System",
+        "description": "Build a scalable content creation process that ensures consistent quality and frequency without overwhelming your team or budget."
+      }
+    ],
+    "includedFeatures": [
+      "Editable content strategy template (Excel/Google Sheets)",
+      "Buyer persona development worksheet",
+      "Content topic brainstorming framework",
+      "Editorial calendar template",
+      "SEO keyword research guide",
+      "Content distribution checklist",
+      "Performance measurement dashboard"
+    ]
   },
   {
     "id": 3,
@@ -36,7 +94,36 @@
       "Employer brand audit tools"
     ],
     "buttonText": "Download Free Toolkit",
-    "buttonLink": "/downloads/kb3.html"
+    "buttonLink": "/freebies/employer-branding-toolkit",
+    "slug": "employer-branding-toolkit",
+    "fullDescription": "The Employer Branding Toolkit gives you everything you need to build a compelling employer brand that attracts the right talent while reducing recruitment costs. Based on my experience leading employer branding at BCG and other top companies, this comprehensive resource provides practical frameworks and templates to develop, launch, and measure an effective employer brand strategy.",
+    "valueProps": [
+      {
+        "title": "Employer Value Proposition Framework",
+        "description": "Develop a compelling EVP that authentically communicates your unique strengths as an employer and resonates with your target talent segments."
+      },
+      {
+        "title": "Candidate Persona Development",
+        "description": "Create detailed candidate personas to understand what motivates your ideal candidates and how to effectively engage them throughout the recruitment process."
+      },
+      {
+        "title": "Employer Brand Audit System",
+        "description": "Assess your current employer brand presence across all channels and identify opportunities to strengthen your positioning and messaging."
+      },
+      {
+        "title": "Recruitment Marketing Strategy",
+        "description": "Build a multi-channel recruitment marketing plan that effectively showcases your employer brand and reaches passive candidates."
+      }
+    ],
+    "includedFeatures": [
+      "Employer branding strategy guide (PDF)",
+      "EVP development workshop template",
+      "Candidate persona canvas",
+      "Employer brand audit checklist",
+      "Recruitment marketing channel planner",
+      "Employee advocacy program blueprint",
+      "Employer brand metrics dashboard"
+    ]
   },
   {
     "id": 4,
@@ -49,6 +136,35 @@
       "Channel performance tracker"
     ],
     "buttonText": "Download Free Tool",
-    "buttonLink": "/downloads/kb4.html"
+    "buttonLink": "/freebies/marketing-budget-optimizer",
+    "slug": "marketing-budget-optimizer",
+    "fullDescription": "The Marketing Budget Optimizer is an interactive tool that helps marketing leaders make data-driven decisions about how to allocate their marketing spend. This Excel-based solution combines proven financial modeling with marketing performance analytics to ensure you're investing your budget in the channels and tactics that deliver the best returns.",
+    "valueProps": [
+      {
+        "title": "Data-Driven Budget Allocation",
+        "description": "Use historical performance data to optimally distribute your marketing budget across channels, campaigns, and initiatives for maximum ROI."
+      },
+      {
+        "title": "Scenario Planning",
+        "description": "Model different budget scenarios to understand potential outcomes and make confident decisions about where to invest or cut spending."
+      },
+      {
+        "title": "Performance Tracking",
+        "description": "Track actual performance against projections in real-time, allowing for agile adjustments to your budget allocation throughout the year."
+      },
+      {
+        "title": "Executive Reporting",
+        "description": "Generate clear, compelling reports and visualizations that communicate marketing's financial impact to executives and stakeholders."
+      }
+    ],
+    "includedFeatures": [
+      "Interactive Excel/Google Sheets budget optimizer",
+      "CAC and LTV calculator",
+      "Channel ROI comparison tool",
+      "Budget scenario planner",
+      "Month-by-month performance tracker",
+      "Executive dashboard template",
+      "Budget presentation template"
+    ]
   }
 ]

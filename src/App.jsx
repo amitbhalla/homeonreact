@@ -7,7 +7,9 @@ import 'aos/dist/aos.css';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import Freebies from './pages/Freebies';
+import FreebieDetail from './pages/FreebieDetail';
 import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
@@ -31,7 +33,9 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/freebies" element={<Freebies />} />
+        <Route path="/freebies/:slug" element={<FreebieDetail />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

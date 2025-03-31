@@ -9,6 +9,7 @@ const SectionHeader = ({
   className = '',
   maxWidth = 800,
   marginBottom = '3rem',
+  color = 'default',
   children
 }) => {
   const containerStyle = {
@@ -18,11 +19,19 @@ const SectionHeader = ({
     textAlign: centered ? 'center' : 'left'
   };
 
+  const textColor = color === 'light' ? { color: 'var(--light)' } : {};
+  const descriptionColor = color === 'light' 
+    ? { color: 'rgba(255, 255, 255, 0.8)' } 
+    : {};
+
   return (
     <div className={`section-header ${className}`} style={containerStyle}>
       {tag && <span className="section-tag">{tag}</span>}
-      <h2 dangerouslySetInnerHTML={{ __html: title }}></h2>
-      {description && <p>{description}</p>}
+      <h2 
+        dangerouslySetInnerHTML={{ __html: title }} 
+        style={textColor}
+      ></h2>
+      {description && <p style={descriptionColor}>{description}</p>}
       {children}
     </div>
   );
@@ -36,6 +45,7 @@ SectionHeader.propTypes = {
   className: PropTypes.string,
   maxWidth: PropTypes.number,
   marginBottom: PropTypes.string,
+  color: PropTypes.oneOf(['default', 'light', 'dark']),
   children: PropTypes.node
 };
 
