@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "icon": "chart-line",
+    "title": "Growth Marketing Playbook",
+    "description": "A comprehensive 35-page guide to developing and executing a data-driven growth marketing strategy that consistently delivers results.",
+    "features": [
+      "Customer acquisition framework",
+      "Channel selection matrix",
+      "ROI measurement templates"
+    ],
+    "buttonText": "Download Free Guide",
+    "buttonLink": "/downloads/kb1.html"
+  },
+  {
+    "id": 2,
+    "icon": "bullhorn",
+    "title": "B2B Content Strategy Template",
+    "description": "The exact content planning framework I use with clients to create content that converts prospects at every stage of the buyer journey.",
+    "features": [
+      "Funnel-aligned content maps",
+      "Topic research worksheet",
+      "Content performance metrics"
+    ],
+    "buttonText": "Download Free Template",
+    "buttonLink": "/downloads/kb2.html"
+  },
+  {
+    "id": 3,
+    "icon": "users",
+    "title": "Employer Branding Toolkit",
+    "description": "Everything you need to build an authentic employer brand that attracts top talent and reduces recruitment costs by up to 50%.",
+    "features": [
+      "EVP development blueprint",
+      "Candidate persona template",
+      "Employer brand audit tools"
+    ],
+    "buttonText": "Download Free Toolkit",
+    "buttonLink": "/downloads/kb3.html"
+  },
+  {
+    "id": 4,
+    "icon": "file-invoice-dollar",
+    "title": "Marketing Budget Optimizer",
+    "description": "An interactive spreadsheet tool that helps optimize your marketing budget allocation based on historical performance and business goals.",
+    "features": [
+      "Budget allocation model",
+      "ROI comparison calculator",
+      "Channel performance tracker"
+    ],
+    "buttonText": "Download Free Tool",
+    "buttonLink": "/downloads/kb4.html"
+  }
+]

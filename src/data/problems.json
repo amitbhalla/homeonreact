@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "icon": "money-bill-wave",
+    "title": "Escalating Customer Acquisition Costs",
+    "description": "Your CAC is rising each quarter while marketing ROI falls. Every dollar spent seems to yield diminishing returns, putting pressure on your margins and growth targets.",
+    "checks": [
+      "Paid channels becoming more expensive",
+      "Conversion rates declining",
+      "Marketing spend increasing without proportional results"
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "chart-line",
+    "title": "Stagnant Sales Pipeline",
+    "description": "Despite all your marketing efforts, your sales pipeline velocity isn't improving. Deals take too long to close, and your sales team complains about lead quality.",
+    "checks": [
+      "Too many unqualified leads",
+      "Long, unpredictable sales cycles",
+      "Difficulty scaling outbound efforts"
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "bullhorn",
+    "title": "Weak Brand Recognition",
+    "description": "In a crowded market, your company struggles to stand out. Prospects don't recognize your brand, and you're constantly fighting to differentiate from competitors.",
+    "checks": [
+      "Competitors winning deals despite inferior products",
+      "Low engagement with brand content",
+      "Difficulty articulating unique value proposition"
+    ]
+  }
+]

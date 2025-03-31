@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "step": 1,
+    "icon": "search",
+    "title": "Diagnostic & Discovery",
+    "description": "We start by analyzing your current marketing performance, identifying gaps, and uncovering the highest-impact opportunities for growth. This includes a comprehensive audit of channels, messaging, and competitive position."
+  },
+  {
+    "id": 2,
+    "step": 2,
+    "icon": "lightbulb",
+    "title": "Strategy Development",
+    "description": "Based on insights from our discovery phase, I'll create a data-backed marketing strategy tailored to your specific business goals, target audience, and competitive landscape. Every recommendation is tied to measurable outcomes."
+  },
+  {
+    "id": 3,
+    "step": 3,
+    "icon": "map",
+    "title": "Execution Roadmap",
+    "description": "I'll develop a detailed action plan with clear timelines, responsibilities, and KPIs to ensure flawless implementation across all relevant channels and touchpoints. This includes both quick wins and strategic initiatives."
+  },
+  {
+    "id": 4,
+    "step": 4,
+    "icon": "code",
+    "title": "Implementation Support",
+    "description": "I provide hands-on guidance during the execution phase, working closely with your team to ensure all elements of our strategy are implemented effectively and overcome any challenges that arise."
+  },
+  {
+    "id": 5,
+    "step": 5,
+    "icon": "chart-line",
+    "title": "Measurement & Optimization",
+    "description": "Using data-driven analytics, we'll continuously monitor performance against KPIs, making real-time adjustments to optimize results and maximize ROI. This iterative approach ensures we're always improving."
+  },
+  {
+    "id": 6,
+    "step": 6,
+    "icon": "rocket",
+    "title": "Long-term Growth Planning",
+    "description": "As we achieve initial goals, I'll help you develop a sustainable growth roadmap that builds on our success and positions your business for continued expansion and market leadership."
+  }
+]
