@@ -4,7 +4,7 @@ import Button from '../common/Button';
 import '../../styles/components/hero.css';
 
 // Import placeholder image if needed
-import placeholderImage from '../../assets/react.svg';
+import placeholderImage from '../../assets/amit-home.png';
 
 const Hero = () => {
   // Scroll to contact section on button click

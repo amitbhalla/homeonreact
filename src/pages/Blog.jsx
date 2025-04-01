@@ -10,6 +10,9 @@ import { Row, Col } from '../components/common/Grid';
 import blogData from '../data/blog.json';
 import '../styles/pages/blog.css';
 
+// Import profile image
+import amitBlogImage from '../assets/amit-blog.png';
+
 const Blog = () => {
   const [posts, setPosts] = useState([]);
   const [filteredPosts, setFilteredPosts] = useState([]);
@@ -50,13 +53,31 @@ const Blog = () => {
       
       <div className="blog-page">
         {/* Blog Hero Section */}
-        <section className="blog-hero">
-          <div className="container">
-            <div className="blog-hero-content">
-              <h1 className="blog-hero-title">Marketing Insights & Strategies</h1>
-              <p className="blog-hero-description">
+        <section className="hero blog-hero" id="blog-hero">
+          <div className="hero-shapes">
+            <div className="hero-shape hero-shape-1"></div>
+            <div className="hero-shape hero-shape-2"></div>
+            <div className="hero-shape hero-shape-3"></div>
+          </div>
+          
+          <div className="container hero-container">
+            <div className="hero-content">
+              <div className="hero-subtitle">Marketing Blog</div>
+              <h1 className="hero-title">
+                Marketing <span className="text-gradient">Insights & Strategies</span>
+              </h1>
+              <p className="hero-description">
                 Expert perspectives on B2B marketing, brand building, and leadership to help you drive measurable business growth.
               </p>
+            </div>
+            
+            <div className="hero-image-container">
+              <div className="hero-image-bg"></div>
+              <img 
+                src={amitBlogImage} 
+                alt="Amit Bhalla - Marketing Blog" 
+                className="hero-image" 
+              />
             </div>
           </div>
         </section>

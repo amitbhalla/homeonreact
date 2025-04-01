@@ -16,8 +16,8 @@ import Layout from '../components/layout/Layout';
 import SectionHeader from '../components/common/SectionHeader';
 import CTA from '../components/sections/CTA';
 
-// Import placeholder images if needed
-import placeholderImage from '../assets/react.svg';
+// Import profile image
+import amitAboutImage from '../assets/amit-about.png';
 import '../styles/pages/about.css';
 
 const About = () => {
@@ -142,24 +142,31 @@ const About = () => {
       
       <div className="about-page">
         {/* About Hero Section */}
-        <section className="about-hero">
-          <div className="container">
-            <div className="about-hero-grid">
-              <div className="about-hero-content">
-                <h1 className="about-hero-title">Marketing Strategist with a Passion for Results</h1>
-                <p className="about-hero-description">
-                  Hi, I'm Amit Bhalla. I help B2B companies transform their marketing from a cost center to a revenue-generating machine. With experience from BCG, McKinsey, and leading B2B companies, I bring a unique blend of strategic thinking and practical execution to every client engagement.
-                </p>
-              </div>
-              
-              <div className="about-hero-image-container">
-                <div className="about-hero-image-bg"></div>
-                <img 
-                  src={placeholderImage} 
-                  alt="Amit Bhalla" 
-                  className="about-hero-image"
-                />
-              </div>
+        <section className="hero about-hero" id="about-hero">
+          <div className="hero-shapes">
+            <div className="hero-shape hero-shape-1"></div>
+            <div className="hero-shape hero-shape-2"></div>
+            <div className="hero-shape hero-shape-3"></div>
+          </div>
+          
+          <div className="container hero-container">
+            <div className="hero-content">
+              <div className="hero-subtitle">About Me</div>
+              <h1 className="hero-title">
+                Marketing Strategist with a <span className="text-gradient">Passion for Results</span>
+              </h1>
+              <p className="hero-description">
+                Hi, I'm Amit Bhalla. I help B2B companies transform their marketing from a cost center to a revenue-generating machine. With experience from BCG, McKinsey, and leading B2B companies, I bring a unique blend of strategic thinking and practical execution to every client engagement.
+              </p>
+            </div>
+            
+            <div className="hero-image-container">
+              <div className="hero-image-bg"></div>
+              <img 
+                src={amitAboutImage} 
+                alt="Amit Bhalla - Marketing Strategist" 
+                className="hero-image" 
+              />
             </div>
           </div>
         </section>

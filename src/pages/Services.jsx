@@ -9,6 +9,9 @@ import ApproachSection from '../components/services/ApproachSection';
 import Button from '../components/common/Button';
 import CTA from '../components/sections/CTA';
 
+// Import profile image
+import amitServicesImage from '../assets/amit-services.png';
+
 // Import services data
 import servicesData from '../data/services.json';
 import '../styles/pages/services.css';
@@ -45,16 +48,36 @@ const Services = () => {
       
       <div className="services-page">
         {/* Services Hero Section */}
-        <section className="services-hero">
-          <div className="container">
-            <div className="services-hero-content">
-              <h1 className="services-hero-title">Marketing Services That Drive Business Growth</h1>
-              <p className="services-hero-description">
+        <section className="hero services-hero" id="services-hero">
+          <div className="hero-shapes">
+            <div className="hero-shape hero-shape-1"></div>
+            <div className="hero-shape hero-shape-2"></div>
+            <div className="hero-shape hero-shape-3"></div>
+          </div>
+          
+          <div className="container hero-container">
+            <div className="hero-content">
+              <div className="hero-subtitle">Expert Marketing Services</div>
+              <h1 className="hero-title">
+                Marketing Services That <span className="text-gradient">Drive Business Growth</span>
+              </h1>
+              <p className="hero-description">
                 I offer a comprehensive range of marketing services designed to solve your most pressing business challenges. Each service is backed by my experience at top consulting firms and leading B2B companies.
               </p>
-              <Button to="#services-list" variant="primary" size="lg">
-                Explore My Services
-              </Button>
+              <div className="hero-cta">
+                <Button to="#services-list" variant="primary" size="lg">
+                  Explore My Services
+                </Button>
+              </div>
+            </div>
+            
+            <div className="hero-image-container">
+              <div className="hero-image-bg"></div>
+              <img 
+                src={amitServicesImage} 
+                alt="Amit Bhalla - Marketing Services" 
+                className="hero-image" 
+              />
             </div>
           </div>
         </section>

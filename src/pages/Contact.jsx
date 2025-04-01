@@ -8,6 +8,9 @@ import ContactFAQ from '../components/contact/ContactFAQ';
 // Import styles
 import '../styles/pages/contact.css';
 
+// Import profile image
+import amitContactImage from '../assets/amit-contact.png';
+
 const Contact = () => {
   useEffect(() => {
     // Scroll to top on page load
@@ -23,13 +26,31 @@ const Contact = () => {
       
       <div className="contact-page">
         {/* Contact Hero Section */}
-        <section className="contact-hero">
-          <div className="container">
-            <div className="contact-hero-content">
-              <h1 className="contact-hero-title">Let's Talk About Your Marketing Goals</h1>
-              <p className="contact-hero-description">
+        <section className="hero contact-hero" id="contact-hero">
+          <div className="hero-shapes">
+            <div className="hero-shape hero-shape-1"></div>
+            <div className="hero-shape hero-shape-2"></div>
+            <div className="hero-shape hero-shape-3"></div>
+          </div>
+          
+          <div className="container hero-container">
+            <div className="hero-content">
+              <div className="hero-subtitle">Get in Touch</div>
+              <h1 className="hero-title">
+                Let's Talk About Your <span className="text-gradient">Marketing Goals</span>
+              </h1>
+              <p className="hero-description">
                 Have a question or ready to explore how we can work together? I'm here to help you achieve measurable marketing results.
               </p>
+            </div>
+            
+            <div className="hero-image-container">
+              <div className="hero-image-bg"></div>
+              <img 
+                src={amitContactImage} 
+                alt="Amit Bhalla - Contact" 
+                className="hero-image" 
+              />
             </div>
           </div>
         </section>

@@ -9,6 +9,9 @@ import CTA from '../components/sections/CTA';
 import resourcesData from '../data/resources.json';
 import '../styles/pages/freebies.css';
 
+// Import profile image
+import amitFreebiesImage from '../assets/amit-freebies.png';
+
 const Freebies = () => {
   const [freebies, setFreebies] = useState([]);
 
@@ -29,13 +32,31 @@ const Freebies = () => {
       
       <div className="freebies-page">
         {/* Freebies Hero Section */}
-        <section className="freebies-hero">
-          <div className="container">
-            <div className="freebies-hero-content">
-              <h1 className="freebies-hero-title">Free Marketing Resources & Tools</h1>
-              <p className="freebies-hero-description">
+        <section className="hero freebies-hero" id="freebies-hero">
+          <div className="hero-shapes">
+            <div className="hero-shape hero-shape-1"></div>
+            <div className="hero-shape hero-shape-2"></div>
+            <div className="hero-shape hero-shape-3"></div>
+          </div>
+          
+          <div className="container hero-container">
+            <div className="hero-content">
+              <div className="hero-subtitle">Free Resources</div>
+              <h1 className="hero-title">
+                Free Marketing <span className="text-gradient">Resources & Tools</span>
+              </h1>
+              <p className="hero-description">
                 Access my collection of battle-tested marketing frameworks, templates, and strategy playbooks that I've used to drive growth for industry-leading brands. No email required — just download and apply.
               </p>
+            </div>
+            
+            <div className="hero-image-container">
+              <div className="hero-image-bg"></div>
+              <img 
+                src={amitFreebiesImage} 
+                alt="Amit Bhalla - Free Marketing Resources" 
+                className="hero-image" 
+              />
             </div>
           </div>
         </section>
