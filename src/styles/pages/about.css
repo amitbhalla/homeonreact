@@ -1,6 +1,5 @@
 /* About Page Styles */
 .about-page {
-  padding-top: 6rem;
   background-color: var(--light);
 }
 
@@ -10,6 +9,7 @@
   padding: 6rem 0 8rem;
   position: relative;
   overflow: hidden;
+  padding-top: 10rem;
 }
 
 .about-hero::before {

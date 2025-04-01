@@ -1,6 +1,5 @@
 /* Blog Page Styles */
 .blog-page {
-  padding-top: 6rem;
   background-color: var(--light);
 }
 
@@ -10,6 +9,7 @@
   padding: 6rem 0 4rem;
   position: relative;
   overflow: hidden;
+  padding-top: 10rem;
 }
 
 .blog-hero::before {
@@ -320,7 +320,6 @@
 
 /* Single Blog Page */
 .blog-post-page {
-  padding-top: 6rem;
   background-color: var(--light);
 }
 
@@ -330,6 +329,7 @@
   padding: 6rem 0 4rem;
   position: relative;
   overflow: hidden;
+  padding-top: 10rem;
 }
 
 .blog-post-hero::before {

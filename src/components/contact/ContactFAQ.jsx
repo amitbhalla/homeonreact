@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import SectionHeader from '../common/SectionHeader';
+import '../../styles/components/contactFaq.css';
 
 const ContactFAQ = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+  
+  // Toggle FAQ item
+  const toggleFAQ = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+  
   const faqs = [
     {
       id: 1,
@@ -44,16 +54,24 @@ const ContactFAQ = () => {
           centered={true}
         />
         
-        <div className="faq-grid">
+        <div className="faq-list">
           {faqs.map((faq, index) => (
             <div 
-              className="faq-item" 
+              className={`faq-item ${activeIndex === index ? 'active' : ''}`} 
               key={faq.id}
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
-              <h3 className="faq-question">{faq.question}</h3>
-              <p className="faq-answer">{faq.answer}</p>
+              <div 
+                className="faq-question"
+                onClick={() => toggleFAQ(index)}
+              >
+                <div className="faq-question-text">{faq.question}</div>
+                <FontAwesomeIcon icon={faPlus} className="faq-question-icon" />
+              </div>
+              <div className="faq-answer">
+                <p>{faq.answer}</p>
+              </div>
             </div>
           ))}
         </div>

@@ -82,8 +82,8 @@ const Blog = () => {
               ))}
             </div>
             
-            <div className="row">
-              <div className="col-lg-8">
+            <Row>
+              <Col lg={8}>
                 <div className="blog-grid">
                   {filteredPosts.map(post => (
                     <BlogCard key={post.id} post={post} />
@@ -96,17 +96,17 @@ const Blog = () => {
                     <p>Try selecting a different category or check back later for new content.</p>
                   </div>
                 )}
-              </div>
+              </Col>
               
-              <div className="col-lg-4">
+              <Col lg={4}>
                 <BlogSidebar 
                   posts={posts}
                   categories={categories}
                   onCategoryClick={handleCategoryClick}
                   activeCategory={activeCategory}
                 />
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </section>
       </div>

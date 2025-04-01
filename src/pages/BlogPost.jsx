@@ -75,9 +75,9 @@ const BlogPost = () => {
                 <FontAwesomeIcon icon={faArrowLeft} className="blog-post-back-icon" /> 
                 Back to all articles
               </Link>
-              
-              <div className="blog-post-category">{post.category}</div>
-              <h1 className="blog-post-title">{post.title}</h1>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <div className="blog-post-category"> {post.category}</div>
+              <h1 className="blog-post-title"> {post.title}</h1>
               
               <div className="blog-post-meta">
                 <div className="blog-post-author">
