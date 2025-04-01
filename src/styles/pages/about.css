@@ -110,14 +110,118 @@
   background: linear-gradient(90deg, var(--primary), var(--accent-2));
 }
 
-.about-story-text {
-  color: var(--gray);
-  line-height: 1.8;
-  font-size: 1.1rem;
+/* Journey Timeline Styling */
+.story-journey {
+  position: relative;
+  padding-left: 2rem;
+  margin-top: 2rem;
 }
 
-.about-story-text p {
-  margin-bottom: 1.5rem;
+.story-journey::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 8px;
+  width: 3px;
+  background: linear-gradient(to bottom, var(--primary) 0%, var(--accent-2) 100%);
+  border-radius: 1.5px;
+}
+
+.story-journey-item {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.story-journey-item:last-child {
+  margin-bottom: 0;
+}
+
+.story-journey-item::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 6px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid var(--light);
+  background: var(--primary);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.3);
+  z-index: 1;
+}
+
+.story-journey-item:hover {
+  transform: translateX(5px);
+}
+
+.story-journey-item:hover::before {
+  background: var(--accent-2);
+  box-shadow: 0 0 0 5px rgba(79, 70, 229, 0.2);
+}
+
+.story-journey-year {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.story-journey-content {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px -15px rgba(15, 23, 42, 0.1);
+  border: 1px solid rgba(228, 228, 231, 0.8);
+  transition: all 0.3s ease;
+}
+
+.story-journey-item:hover .story-journey-content {
+  box-shadow: 0 20px 40px -20px rgba(15, 23, 42, 0.15);
+  border-color: rgba(79, 70, 229, 0.3);
+}
+
+.story-journey-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+}
+
+.story-journey-content p {
+  color: var(--gray);
+  line-height: 1.6;
+  margin-bottom: 0;
+  font-size: 1.05rem;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .story-journey {
+    padding-left: 1rem;
+  }
+  
+  .story-journey-item {
+    padding-left: 1rem;
+  }
+  
+  .story-journey-title {
+    font-size: 1.1rem;
+  }
+  
+  .story-journey-content {
+    padding: 1.25rem;
+  }
+  
+  .story-journey-content p {
+    font-size: 1rem;
+  }
 }
 
 /* Experience Section */

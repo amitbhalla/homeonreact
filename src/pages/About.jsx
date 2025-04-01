@@ -169,19 +169,57 @@ const About = () => {
           <div className="container about-story-container">
             <div className="about-story-content">
               <h2 className="about-story-title">My Story</h2>
-              <div className="about-story-text">
-                <p>
-                  My journey in marketing began with a fascination for the intersection of business strategy and customer psychology. After completing my MBA with dual specializations in Marketing and Finance, I joined McKinsey & Company, where I honed my analytical skills and strategic thinking in the data analytics team.
-                </p>
-                <p>
-                  During my time at McKinsey and later at BCG, I had the privilege of working with Fortune 500 companies across diverse industries. I witnessed firsthand the challenges B2B companies face in demonstrating marketing ROI and building sustainable growth engines. This experience shaped my approach to marketing—one that balances strategic vision with practical execution and measurable results.
-                </p>
-                <p>
-                  As I transitioned into leadership roles, including Marketing Director at BCG and now Vice President of Strategy & Marketing at Mynd Integrated Solutions, I've focused on building marketing functions that directly contribute to business growth. My experience spans brand strategy, performance marketing, employer branding, and product marketing—all united by a results-driven philosophy.
-                </p>
-                <p>
-                  Today, I work with select B2B companies to solve their most pressing marketing challenges. Whether it's reducing customer acquisition costs, accelerating pipeline velocity, or strengthening brand positioning, I apply a methodical approach that delivers tangible outcomes rather than just theoretical frameworks.
-                </p>
+              
+              <div className="story-journey">
+                <div className="story-journey-item">
+                  <div className="story-journey-year">The Beginning</div>
+                  <div className="story-journey-content">
+                    <h3 className="story-journey-title">Where It All Started</h3>
+                    <p>
+                      My marketing journey began with a fascination for the intersection of business strategy and customer psychology. After completing my MBA with dual specializations in Marketing and Finance, I was drawn to the world of strategic consulting.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="story-journey-item">
+                  <div className="story-journey-year">Early Career</div>
+                  <div className="story-journey-content">
+                    <h3 className="story-journey-title">Learning from the Best</h3>
+                    <p>
+                      At McKinsey & Company, I honed my analytical skills and strategic thinking in the data analytics team. This foundation gave me a unique perspective on how data should inform marketing decisions—something that continues to differentiate my approach today.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="story-journey-item">
+                  <div className="story-journey-year">Pivotal Moments</div>
+                  <div className="story-journey-content">
+                    <h3 className="story-journey-title">The ROI Revelation</h3>
+                    <p>
+                      Working with Fortune 500 companies at both McKinsey and BCG, I witnessed firsthand the challenges B2B companies face in demonstrating marketing ROI. This sparked my mission to transform marketing from a cost center to a revenue driver.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="story-journey-item">
+                  <div className="story-journey-year">Leadership</div>
+                  <div className="story-journey-content">
+                    <h3 className="story-journey-title">Building High-Performance Teams</h3>
+                    <p>
+                      As I transitioned into leadership roles—from Marketing Director at BCG to VP at Mynd Integrated Solutions—I've focused on building marketing functions that directly contribute to business growth, spanning brand strategy, performance marketing, and more.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="story-journey-item">
+                  <div className="story-journey-year">Today</div>
+                  <div className="story-journey-content">
+                    <h3 className="story-journey-title">Strategic Partner</h3>
+                    <p>
+                      Now, I work with select B2B companies to solve their most pressing marketing challenges. Whether it's reducing customer acquisition costs, accelerating pipeline velocity, or strengthening brand positioning, I apply a methodical approach that delivers tangible outcomes.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
