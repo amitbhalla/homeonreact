@@ -259,7 +259,7 @@
   margin-bottom: 0;
 }
 
-.timeline-item:nth-child(odd) {
+.timeline-item:nth-child(even) {
   justify-content: flex-end;
 }
 
@@ -290,14 +290,8 @@
   border: 5px solid white;
   box-shadow: 0 0 0 3px var(--primary-dark);
   z-index: 1;
-}
-
-.timeline-item:nth-child(odd) .timeline-point {
-  left: calc(100% + 1.5rem);
-}
-
-.timeline-item:nth-child(even) .timeline-point {
-  right: calc(100% + 1.5rem);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .timeline-company {
