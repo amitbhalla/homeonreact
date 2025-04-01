@@ -59,8 +59,6 @@ const ContactFAQ = () => {
             <div 
               className={`faq-item ${activeIndex === index ? 'active' : ''}`} 
               key={faq.id}
-              data-aos="fade-up"
-              data-aos-delay={index * 100}
             >
               <div 
                 className="faq-question"

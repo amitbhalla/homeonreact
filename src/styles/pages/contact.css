@@ -30,6 +30,10 @@
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-hero-title {
@@ -40,6 +44,10 @@
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .contact-content-section {
@@ -234,8 +242,12 @@ textarea.form-control {
 }
 
 .contact-faq-container {
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .faq-list {
